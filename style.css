@@ -94,7 +94,6 @@ body {
     background: #FF961C;
     margin-right: 15px;
     margin-left: 15px;
-    margin-top: 15px;
 }
 
 @keyframes ds {
@@ -119,7 +118,6 @@ body {
     height: 43px;
     border-radius: 10px;
     background: #1c3aff;
-    margin-top: 15px;
 }
 
 .text-donate {
@@ -291,6 +289,14 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .donate {
+        margin-top: 15px;
+    }
+
+    .ds {
+        margin-top: 15px;
     }
 }
 
