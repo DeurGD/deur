@@ -5,6 +5,13 @@ body {
     flex-direction: column;
 }
 
+@media (max-width: 450px) {
+    .platina-imgs {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .mi {
     display: flex;
     flex-direction: row;
