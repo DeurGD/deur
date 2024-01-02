@@ -87,6 +87,7 @@ body {
     background: #FF961C;
     margin-right: 15px;
     margin-left: 15px;
+    margin-top: 15px;
 }
 
 @keyframes ds {
@@ -111,6 +112,7 @@ body {
     height: 43px;
     border-radius: 10px;
     background: #1c3aff;
+    margin-top: 15px;
 }
 
 .text-donate {
@@ -222,6 +224,7 @@ body {
     width: 200px;
     height: 350px;
     background-image: url("./res/platina kon.jpg");
+    margin-top: 25px;
     background-size: cover;
     margin-right: 15px;
 }
@@ -240,9 +243,18 @@ body {
     height: 110px;
     background-image: url("./res/platina-tg.jpg");
     background-size: cover;
+    margin-top: 25px;
     margin-right: 15px;
 }
 
+.img-1 {
+    display: flex;
+    flex-direction: row;
+}
+.img-2 {
+    display: flex;
+    flex-direction: row;
+}
 
 .platina-imgs {
     display: flex;
@@ -250,4 +262,34 @@ body {
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 1280px) {
+        .img-1 {
+            display: flex;
+            flex-direction: column;
+        }
+}
+
+@media (max-width: 1075px) {
+        .img-2 {
+            display: flex;
+            flex-direction: column;
+        }
+}
+
+@media (max-width: 870px) {
+    .buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .platina-imgs {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
