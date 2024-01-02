@@ -1,0 +1,253 @@
+body {
+    background-color: #0c0c0e;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mi {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mi-txt {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.nick {
+    margin-left: 5px;
+    color: #FFF;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pavel {
+    margin-left: 5px;
+    color: #B9B9B9;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ava-joke {
+    display: flex;
+    color: #353535;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+
+.desc {
+    width: 96.5%;
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+
+@keyframes donate {
+    from {
+        background: #FF961C;
+    }
+    to {
+        background: #ffa43f;
+    }
+}
+
+.donate:hover {
+    animation: donate 0.6s;
+    animation-fill-mode: forwards;
+}
+
+.donate {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    width: 310px;
+    height: 43px;
+    border-radius: 10px;
+    background: #FF961C;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+@keyframes ds {
+    from {
+        background: #1c3aff;
+    }
+    to {
+        background: #3049ff;
+    }
+}
+
+.ds:hover {
+    animation: ds 0.6s;
+    animation-fill-mode: forwards;
+}
+
+.ds {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    width: 240px;
+    height: 43px;
+    border-radius: 10px;
+    background: #1c3aff;
+}
+
+.text-donate {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@keyframes tg {
+    from {
+        background: #1c99ff;
+    }
+    to {
+        background: #3aa4fc;
+    }
+}
+
+.tg:hover {
+    animation: tg 0.6s;
+    animation-fill-mode: forwards;
+}
+
+.tg {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    width: 240px;
+    height: 43px;
+    border-radius: 10px;
+    background: #1c99ff;
+}
+
+
+.icon-donate {
+    width: 28px;
+    height: 28px;
+    background-image: url("./res/donate.png");
+    background-size: cover;
+    background-color: rgba(0,0,0,0);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icon-ds {
+    width: 28px;
+    height: 28px;
+    background-image: url("./res/ds.png");
+    background-size: cover;
+    background-color: rgba(0,0,0,0);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+}
+
+
+.icon-tg {
+    width: 28px;
+    height: 28px;
+    background-image: url("./res/telegram.png");
+    background-size: cover;
+    background-color: rgba(0,0,0,0);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+}
+
+
+.button-comp {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.platina {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.platina-img-1 {
+    width: 300px;
+    height: 200px;
+    background-image: url("./res/platina-var.gif");
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.platina-img-2 {
+    width: 200px;
+    height: 350px;
+    background-image: url("./res/platina kon.jpg");
+    background-size: cover;
+    margin-right: 15px;
+}
+
+
+.platina-img-3 {
+    width: 300px;
+    height: 350px;
+    background-image: url("./res/platina-roskomnadzor.gif");
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.platina-img-4 {
+    width: 400px;
+    height: 110px;
+    background-image: url("./res/platina-tg.jpg");
+    background-size: cover;
+    margin-right: 15px;
+}
+
+
+.platina-imgs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
